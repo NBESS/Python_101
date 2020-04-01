@@ -2,7 +2,7 @@
 # and tell him/her how many letters are in their name ###
 
 # 1. Gather user's name in all caps
-user_name = input('What is your name? ').upper()
+user_name = input('WHAT IS YOUR NAME? ').upper()
 
 
 # 2. Output/ Greeting by user name in all caps
@@ -15,7 +15,7 @@ print(greeting)
 
 # 3. Output how many letters are in user's name
 # Find length of user's name
-name_length = user_name.length()
+name_length = len(user_name)
 
 # Message containing length of user's name
 message = f'your name has {name_length} letters in it! Awesome!'
