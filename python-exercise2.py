@@ -18,7 +18,7 @@ print(greeting)
 name_length = user_name.length()
 
 # Message containing length of user's name
-messsage = f'your name has {name_length} letters in it! Awesome!'
+message = f'your name has {name_length} letters in it! Awesome!'
 
 # Output message
 print(message.upper())
